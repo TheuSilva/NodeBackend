@@ -14,9 +14,9 @@ class LivroDao {
                     descricao
                 ) values (?, ?, ?)
             `, [
-                livro.titulo,
-                livro.preco,
-                livro.descricao
+                    livro.titulo,
+                    livro.preco,
+                    livro.descricao
             ],
                 function (err) {
                     if (err) {
